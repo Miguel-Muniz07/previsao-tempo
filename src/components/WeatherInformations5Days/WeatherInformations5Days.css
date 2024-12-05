@@ -31,3 +31,9 @@
 .forecast-description{
     text-transform: capitalize;
 }
+
+@media screen and (max-width: 432px) {
+    .weather-list{
+        flex-direction: column;
+    }
+}
